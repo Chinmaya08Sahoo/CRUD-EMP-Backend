@@ -1,0 +1,37 @@
+[
+    {
+        "endPoint": "/USER/ALL",
+        "method": "get",
+        "middlewares": [
+            "user/all"
+        ]
+    },
+    {
+        "endPoint": "/USER/UPDATE",
+        "method": "post",
+        "middlewares": [
+            "user/update"
+        ]
+    },
+    {
+        "endPoint": "/USER/:userId?",
+        "method": "get",
+        "middlewares": [
+            "user/get"
+        ]
+    },
+    {
+        "endPoint": "/USER/ADD",
+        "method": "post",
+        "middlewares": [
+            "user/add"
+        ]
+    },
+    {
+        "endPoint": "/USER/DELETE",
+        "method": "post",
+        "middlewares": [
+            "user/delete"
+        ]
+    }
+]
